@@ -1,0 +1,8 @@
+<odoo>
+    <data noupdate="1">
+        <record id="validate_partial_sp_order" model="res.groups">
+            <field name="name">Validar Sin Orden Parcial</field>
+            <field name="category_id" ref="base.module_category_inventory_inventory"/>
+        </record>
+    </data>
+</odoo>
